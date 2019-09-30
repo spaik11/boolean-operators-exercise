@@ -34,8 +34,8 @@ function isTeacher(str) {
   return str === 'teacher';
 }
 
-function isAdmin() {
-  
+function isAdmin(str) {
+  return str === 'admin';
 }
 
 function isElementary(str) {
@@ -50,8 +50,8 @@ function isMiddleSchoolTeacher(str, num) {
   return str === 'teacher' && num >= 6 && num <= 8;
 }
 
-function differentPeople() {
-
+function differentPeople(name1, name2) {
+  return name1 === name2;
 }
 
 module.exports = {
