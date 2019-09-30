@@ -1,53 +1,53 @@
-function moreThan5() {
-
+function moreThan5(num) {
+  return num > 5;
 }
 
-function topScore() {
-  
+function topScore(num1, num2) {
+  return num1 > num2;
 }
 
-function isInDanger() {
-
+function isInDanger(grade) {
+  return grade >= 60 && grade <= 71;
 }
 
-function isCoasting() {
-
+function isCoasting(grade) {
+  return grade >= 72 && grade <=83;
 }
 
-function isSucceeding() {
-
+function isSucceeding(grade) {
+  return grade >=84 && grade <=92;
 }
 
-function isFailing() {
-
+function isFailing(grade) {
+  return grade < 60;
 }
 
-function isAcing() {
-
+function isAcing(grade) {
+  return grade > 92;
 }
 
-function isStudent() {
-
+function isStudent(str) {
+  return str === 'student';
 }
 
-function isTeacher() {
-
+function isTeacher(str) {
+  return str === 'teacher';
 }
 
 function isAdmin() {
-
+  
 }
 
-function isElementary() {
-
+function isElementary(str) {
+  return str === 'elementary';
 }
 
-function notAnElementarySchoolAdministrator() {
-
+function notAnElementarySchoolAdministrator(str1, str2) {
+  return str1 !== 'elementary' || str2 !== 'admin';
 }
 
-function isMiddleSchoolTeacher() {
-
+function isMiddleSchoolTeacher(str, num) {
+  return str === 'teacher' && num >= 6 && num <= 8;
 }
 
 function differentPeople() {
